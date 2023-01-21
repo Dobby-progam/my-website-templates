@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="/src/main.css" rel="stylesheet">
+    <link href="src/main.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style type="text/tailwindcss">
         @layer utilities {
@@ -14,10 +14,32 @@
           }
         }
       </style>
+
 </head>
-<body>
-<div class="col">
-    <h1 class="text-4xl layout center">Dobbie</h1>
+<body class="bg-zinc-900">
+  <div class="text-center center " >
+    <p class="text-8xl text-center">Dobbie</p>
+    <div class="rounded-t-full">
+      <img src="src/pfp.png" alt="pfp" class="pfp">
+    </div>
+  </div>
+<div class="bottum">
+  <div class="grid grid-cols-2 gap-10">
+    <div>
+      <button id="about" class="px-4 py-2 bg-sky-500 hover:bg-sky-700 rounded-full text-[#fffdfdfa] text-xl">about me </button>
+    </div>
+    <div>
+      <button id="contact-me" class="px-4 py-2 bg-sky-500 hover:bg-sky-700 rounded-full text-[#fffdfdfa] text-xl">contact me  </button>
+    </div>
+  </div>
 </div>
+<!--one of the 2 side bar wil be showen on a button press-->
+<div id="l" class="hadden">
+<p>test</p>
+</div>
+<div id="right" class="hadden">
+
+</div>
+<script src="src/main.js"></script>
 </body>
 </html>
