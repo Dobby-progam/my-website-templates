@@ -1,5 +1,10 @@
-let bu= document.getElementById(about);
-let output = document.getElementById(l);
-bu.addEventListener('click', function (){
-bu.classList.toggle('hadden');
+const buttonL= document.getElementById("about");
+const outputL = document.getElementById("l");
+button.addEventListener('click', function (){
+output.classList.toggle('hadden');
+});
+const buttonR= document.getElementById("contat-me");
+const outputR = document.getElementById("right");
+buttonR.addEventListener('click', function (){
+outputR.classList.toggle('hadden');
 });
