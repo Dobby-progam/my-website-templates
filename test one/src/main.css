@@ -20,10 +20,23 @@ p , h1 , h2 ,h3 ,h4, h5 ,h6 {
 }
 .bottum{
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .hadden {
     display: none;
+}
+.left{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    
+}
+.right{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
 }
