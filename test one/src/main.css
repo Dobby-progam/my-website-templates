@@ -26,19 +26,24 @@ transform: translate(25%, 0);
 }
 .left{
     position: absolute;
-    top: 75%;
-    left: 28%;
+    top: 300%;
+    left: 50%;
     transform: translate(-50%, -50%);
     
 }
 .right{
     position: absolute;
-    top: 74%;
-    left: 75%;
+    top: 200%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 .down{
     position: absolute;
     top: 96%;
+
+}
+.upar{
+    color: whitesmoke;
+    font-size: 3em;
 
 }
