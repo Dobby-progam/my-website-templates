@@ -3,24 +3,20 @@ p , h1 , h2 ,h3 ,h4, h5 ,h6 {
 }
 .center{
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     
 }
-.pfp{
-    overflow:hidden;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    top: calc(50% + 75px); /* 30px is an example value, you can adjust this as needed */
-    left: 50%;
-    transform: translate(-50%, 0);
+.space{
+margin-top: 100px;
+transform: translate(25%, 0);
 }
+
 .bottum{
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -29,14 +25,14 @@ p , h1 , h2 ,h3 ,h4, h5 ,h6 {
 }
 .left{
     position: absolute;
-    top: 50%;
-    left: 15%;
+    top: 75%;
+    left: 28%;
     transform: translate(-50%, -50%);
     
 }
 .right{
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 75%;
     transform: translate(-50%, -50%);
 }

@@ -17,34 +17,36 @@
 
 </head>
 <body class="bg-zinc-900">
-  <div class="text-center center " >
-    <p class="text-8xl text-center">{your name}</p>
-    <div class="rounded-t-full">
-      <img src="src/pfp.png" alt="pfp" class="pfp">
+  <div class="center" >
+    <div>
+      <p class="lg:text-8xl md:text-5xl text-3xl text-center">{your name}</p>
+    </div>
+    <div class="space">
+      <img src="src/pfp.png" alt="pfp" class="pfp inline-block h-24 w-24 rounded-full ring-2 ring-[#fffdafdfa] lg:h-60 lg:w-60">
     </div>
   </div>
 <div class="bottum">
   <div class="grid grid-cols-2 gap-10">
     <div>
-      <button id="about" class="px-4 py-2 bg-sky-500 hover:bg-sky-700 rounded-full text-[#fffdfdfa] text-xl">about me </button>
+      <button id="about" class="px-4 py-2 bg-sky-500 hover:bg-sky-700 rounded-full text-[#fffdfdfa] md:text-xl">about me </button>
     </div>
     <div>
-      <button id="contact" class="px-4 py-2 bg-sky-500 hover:bg-sky-700 rounded-full text-[#fffdfdfa] text-xl">contact me  </button>
+      <button id="contact" class="px-4 py-2 bg-sky-500 hover:bg-sky-700 rounded-full text-[#fffdfdfa] md:text-xl">contact me  </button>
     </div>
   </div>
 </div>
 <!--one of the 2 side bar wil be showen on a button press-->
 <div id="left" class="hadden text-center left">
-  <div class=" w-96 h-96">
+  <div class=" w-52 h-96">
     <p class="text-3xl">I am {your name}</p>
-    <p class="text-xl">put here your about me. What do you do, what do you learn? why should they work with you? and what do you like and what do you hate? just an example of how long this text can be without < br > </p>
+    <p class="lg:text-xl text-sm">put here your about me. What do you do, what do you learn? why should they work with you? and what do you like and what do you hate? just an example of how long this text can be without < br > </p>
   </div>
 </div>
 
 <div id="right" class="hadden text-center right">
-  <div class=" w-96 h-96">
+  <div class=" w-52 h-96">
     <p class="text-3xl">I am {yourname}</p>
-    <p class="text-xl">you can put here your contact information, like E-mail social media  </p>
+    <p class="lg:text-xl text-sm">you can put here your contact information, like E-mail social media  </p>
   </div>
 </div>
 <script src="src/main.js"></script>
