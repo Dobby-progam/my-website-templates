@@ -7,10 +7,10 @@ left.scrollIntoView();
 });
 //display the contact page and scroll to it
 const buttonR= document.getElementById("contact");
-const outputR = document.getElementById("right");
+const contact = document.getElementById("contact1");
 buttonR.addEventListener('click', function (){
-outputR.classList.toggle('hadden')
-outputR.scrollIntoView("");
+contact.classList.toggle('hadden')
+contact.scrollIntoView("");
 });
 //scroll up and hide the about 
 const butabout= document.getElementById("butabout");
@@ -23,6 +23,6 @@ left.classList.toggle("hadden");
 const butcont=document.getElementById("butcont")
 butcont.addEventListener('click', function(){
     up.scrollIntoView
-    right.classList.toggle('hadden')
+    contact.classList.toggle('hadden')
 
 });

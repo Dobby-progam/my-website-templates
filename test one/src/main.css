@@ -21,22 +21,27 @@ transform: translate(25%, 0);
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.hadden {
+.hadden. {
     display: none;
 }
-.left{
+.about{
     position: absolute;
     top: 300%;
     left: 50%;
     transform: translate(-50%, -50%);
     
 }
-.right{
+.about-t{
+    position: relative;
+    top:250%;
+}
+.contact{
     position: absolute;
     top: 200%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .down{
     position: absolute;
     top: 96%;
